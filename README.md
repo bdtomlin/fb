@@ -1,21 +1,20 @@
 # Fb
 
-**TODO: Add description**
+A simple app to demonstrate how button params work
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fb` to your list of dependencies in `mix.exs`:
+* clone the repository
+* change into the directory
+* run mix deps.get
+* run iex -S mix
 
-```elixir
-def deps do
-  [
-    {:fb, "~> 0.1.0"}
-  ]
-end
-```
+## Usage
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/fb](https://hexdocs.pm/fb).
+* visit http://localhost:8085/form in multiple browsers
+* click button a
+* note the param displayed
+* click the back button
+* click button b
+* note the param displayed
 
